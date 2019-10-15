@@ -1,0 +1,165 @@
+
+
+<HTML>
+<style type="text/css"> 
+  body {
+  background-color: #FFFFFF; 
+font-family: 'Lora', serif;
+
+}
+
+
+
+  
+a{
+  text-decoration: none;
+  line-height: 1.3em;
+  color:#848484;
+  font-size:1em;}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+a:hover{color:#000000;}
+
+a.reverse{ 
+  color:#848484; 
+  font-size:1em;
+} 
+
+a.reverse:hover{color:#000000;}
+
+u {    
+    border-bottom: 1px dotted #848484;
+    text-decoration: none;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0;
+
+}
+
+li{
+  line-height: 1.3em; 
+  padding-bottom: 23px; 
+  padding-top: 0px;
+  }
+
+  
+.greylink{ 
+  color : #848484
+}
+
+authors{
+  line-height:1.3em;
+  color:#848484;
+  font-size:.8em;
+  padding-top:2em;
+} 
+
+  .container { width: 1080px; margin: 0 auto; }
+  .left { float: left; width: 1000px; }
+  .right { float: right; width: 500px; } 
+</style>
+
+
+<HEAD>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121338330-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121338330-1');
+</script>
+
+
+
+  
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+
+<TITLE>Sparse Fourier Transform</TITLE>
+
+
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</HEAD>
+
+
+<body>
+
+<main>
+
+<div class="container container_2">
+
+
+  <div class="grid_1 left"> 
+<div style="font-size:25pt; padding-top:2em; padding-bottom:.3em"> 
+   Fourier analysis in TCS
+</div>
+
+
+
+        <div
+      style="line-height:1.6em;font-size:.8em;padding-top:.5em;padding-bottom:2em;      padding-left:1em">
+       (General Resources:Surveys, lecture, papers and scribe notes, videos, open problem compendiums, etc.)
+     </div>
+
+
+ <h2>Sparse Fourier Transform:</h2>
+    <ul>
+  <li>
+     <div
+     style="line-height:1.5em;font-size:.9em;color:#848484;padding-top:.5em;padding-left:1em">
+     
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/"><u>SFFT group homepage</u></a></br>
+     <a href="http://www.mit.edu/~ecprice/papers/sparse-fft-soda.pdf"><u>Simple and Practical Algorithm for Sparse Fourier Transform</u> by Haitham Hassanieh,Piotr Indyk,Dina Katabi and Eric Price SODA 2012 </a></br>
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/soda_slides.pdf"><u>Simple and Practical Algorithm for Sparse Fourier Transform</u> Slides by Haitham Hassanieh,Piotr Indyk,Dina Katabi and Eric Price 2012 </a></br>
+     <a href="https://arxiv.org/pdf/1201.2501.pdf"><u>Nearly Optimal Sparse Fourier Transform</u> by Haitham Hassanieh,Piotr Indyk,Dina Katabi and Eric Price STOC 2012</a> <br>
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/sparsefft-slides.pdf"><u>Nearly Optimal Sparse Fourier Transform</u> Slides by Haitham Hassanieh,Piotr Indyk,Dina Katabi and Eric Price 2012</a></br>
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/2dsfft.pdf"><u>Sample-Optimal Average-Case Sparse Fourier Transform in Two Dimensions</u> by Badih Ghazi et al 2013</a></br>
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/Allerton_2DSFFT.pdf"><u>Sample-Optimal Average-Case Sparse Fourier Transform in Two Dimensions</u> Slides by Badih Ghazi et al 2013</a></br>
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/fouriermeasurements.pdf"><u>(Nearly) Sample-Optimal Sparse Fourier Transform</u> by Piotr Indyk, Michael Kapralov, and Eric Price SODA 2014</a></br>
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/slides-fourier-soda14.pdf"><u>(Nearly) Sample-Optimal Sparse Fourier Transform</u> Slides by Piotr Indyk, Michael Kapralov, and Eric Price 2014</a></br>
+     <a href="http://groups.csail.mit.edu/netmit/sFFT/ft-hd-part1.pdf"><u>Sample-Optimal Sparse Fourier Transform in Any Constant Dimension</u> by Piotr Indyk and Michael Kapralov FOCS 2014</a></br>
+     <a href="https://arxiv.org/abs/1609.00896v1"><u>A robust sparse fourier transform in the continuous setting</u> by Eric Price and Zhao Song FOCS 2015</a> <br>
+     <a href="https://arxiv.org/abs/1604.00845"><u>Sparse fourier transform in any constant dimension with nearlyoptimal sample complexity in sublinear time</u> by Michael Kapralov STOC 2016</a> <br>
+     <a href="https://arxiv.org/pdf/1609.01361"><u>Fourier-sparse interpolation without a frequency gap</u> by Xue Chen, Daniel M. Kane, Eric Price, and Zhao Song FOCS 2016</a> <br>
+     <a href="https://arxiv.org/abs/1708.04544"><u> Sample efficient estimation and recovery in sparse FFT via isolation on average.</u> by Michael Kapralov FOCS 2017</a> <br>
+     <a href="https://theory.epfl.ch/kapralov/papers/highdimSFFT.pdf"><u>Dimension-independent Sparse Fourier Transform</u> by Michael Kapralov,Ameya Velingker,and Amir Zandieh SODA 2019</a> <br>
+     
+    </div>  
+  </li> 
+ </ul>
+    
+
+
+  
+<br>
+<br>
+<br>
+<br>
+
+
+  </div>
+</div> 
+
+
+
+
+<div class="clear"><p> </p></div>
+
+
+</main>
+
+
+</body>
+</html>
+
